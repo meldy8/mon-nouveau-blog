@@ -24,6 +24,3 @@ urlpatterns = [
     path('', include('blog.urls')),
 ]
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
